@@ -16,9 +16,9 @@ namespace GestionRiobambaZapateria
         {
             InitializeComponent();
 
-            // Llenar el ComboBox con los dÃ­as de la semana
-            comboBoxDias.Items.AddRange(new string[] { "Lunes", "Martes", "MiÃ©rcoles", "Jueves", "Viernes", "SÃ¡bado", "Domingo" });
-            comboBoxDias.SelectedIndex = 0; // Seleccionar el primer dÃ­a por defecto
+            // Llenar el ComboBox con los días de la semana
+            comboBoxDias.Items.AddRange(new string[] { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" });
+            comboBoxDias.SelectedIndex = 0; // Seleccionar el primer día por defecto
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace GestionRiobambaZapateria
             // Verificar que hay un elemento seleccionado en el ComboBox
             if (comboBoxDias.SelectedItem == null)
             {
-                MessageBox.Show("Por favor, selecciona un dÃ­a de la semana.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, selecciona un día de la semana.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -45,10 +45,10 @@ namespace GestionRiobambaZapateria
             // Agregar la venta a la lista
             listZapatos.AgregarVenta(venta);
 
-            // Limpiar los campos para el prÃ³ximo ingreso
+            // Limpiar los campos para el próximo ingreso
             LimpiarCampos();
 
-            // Mostrar mensaje de confirmaciÃ³n
+            // Mostrar mensaje de confirmación
             MessageBox.Show("Datos guardados satisfactoriamente.", "Guardado", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
