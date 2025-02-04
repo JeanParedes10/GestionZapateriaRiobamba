@@ -2,7 +2,6 @@
 Proyecto de programación : Orrala Emilia, Paredes Jean, Santana Andrés
 (Due to technical issues, the search service is temporarily unavailable.)
 
-Aquí tienes un ejemplo de un *README* para el proyecto de investigación formativa, siguiendo la estructura y los detalles proporcionados:
 
 ---
 
