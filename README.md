@@ -1,7 +1,6 @@
 # Proyecto-Programacion
 (Due to technical issues, the search service is temporarily unavailable.)
-
-Aquí tienes un ejemplo de un *README* para el proyecto de investigación formativa, siguiendo la estructura y los detalles proporcionados:
+HECHO POR : ORRALA EMILIA, PAREDES JEAN, SANTANA ANDRÉS
 
 ---
 
